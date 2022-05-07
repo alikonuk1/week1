@@ -10,6 +10,5 @@ template SystemOfEquations(n) { // n is the number of variables in the system of
     signal output out; // 1 for correct solution, 0 for incorrect solution
 
     // [bonus] insert your code here
-}
 
 component main {public [A, b]} = SystemOfEquations(3);
